@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PWSkills Blog</h1>
+      <button id="addBlogBtn" class="add-blog-btn">+</button>
+    </header>
+    <section class="blog-cards">
+      <!-- <div class="blog-card">
+        <img src="" alt="" />
+        <h2></h2>
+        <p></p>
+        <button></button>
+      </div> -->
+    </section>
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <form id="blogForm">
+          <label for="blogUrl">Enter Blog Post URL:</label>
+          <input type="url" id="blogUrl" required />
+
+          <label for="blogTitle">Enter Blog Title:</label>
+          <input type="text" id="blogTitle" required />
+
+          <label for="blogDescription">Enter Blog Description:</label>
+          <input type="text" id="blogDescription" required />
+
+          <label for="blogContent">Write:</label>
+          <textarea id="blogContent" rows="4" required></textarea>
+
+          <button id="addblogbtn" type="submit">Add Blog</button>
+          <span class="close-btn">&times;</span>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
